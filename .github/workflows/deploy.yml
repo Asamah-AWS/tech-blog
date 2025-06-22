@@ -60,8 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-
-  # Deployment job
+#deplyoment job
   deploy:
     environment:
       name: github-pages
@@ -72,7 +71,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
       - name: Sync to S3 bucket
         run: aws s3 sync public/ s3://myblogbucket1 --delete
+
+      - name: Invalidate CloudFront cache
+        run: aws cloudfront create-invalidation --distribution-id EAYP4JDSFXOSR --paths "/*"
 
 
