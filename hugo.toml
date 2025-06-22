@@ -3,7 +3,7 @@ baseURL = "https://yourdomain.com"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "NAME_OF_YOUR_BLOG"
+title = "the best blog out there"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -142,7 +142,7 @@ theme = "LoveIt"
       # URL of the LOGO
       logo = ""
       # title name
-      name = "NAME_OF_YOUR_BLOG"
+      name = "my humble blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -195,12 +195,12 @@ theme = "LoveIt"
       enable = true
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
-      # URL of avatar shown in home page (LINK_TO_YOUR_PHOTO_BELOW)
-      avatarURL = "https://avatars.githubusercontent.com/u/7815661?v=4"
+      # URL of avatar shown in home page ()
+      avatarURL = "https://github.com/Asamah-AWS >.png"
       #  title shown in home page (HTML format is supported)
-      title = "NAME_OF_YOUR_BLOG"
+      title = "My test run blog"
       # subtitle shown in home page
-      subtitle = "My AWS DevOps Engineering Journey"
+      subtitle = "My journey learning AWS with Clound talents is amazing!"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -220,7 +220,7 @@ theme = "LoveIt"
   [params.social]
     Bitbucket = ""
     GitHub = ""
-    Linkedin = "YOUR_LINKEDIN_LINK"
+    Linkedin = "www.linkedin.com"
     Twitter = ""
     Gitlab = ""
     Email = ""
@@ -511,7 +511,7 @@ theme = "LoveIt"
 
 # Author config
 [author]
-  name = "YOUR_NAME"
+  name = "Asamah AWS learner"
   email = ""
   link = ""
 
