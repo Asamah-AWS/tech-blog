@@ -196,7 +196,7 @@ theme = "LoveIt"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page ()
-      avatarURL = "  avatarURL = "/images/log1.jpg"
+      avatarURL = "  avatarURL = ""
       #  title shown in home page (HTML format is supported)
       title = "My test run blog"
       # subtitle shown in home page
